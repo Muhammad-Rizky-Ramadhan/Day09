@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Login"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/logUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" username"
+        android:paddingTop="35dp"
+        android:drawableStart="@drawable/account"/>
+
+    <EditText
+        android:id="@+id/logPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" password"
+        android:paddingTop="25dp"
+        android:drawableStart="@drawable/password"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="login"
+        />
+
+    <TextView
+        android:id="@+id/tvCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="create new account"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:textSize="17dp"/>
+
+</LinearLayout>
